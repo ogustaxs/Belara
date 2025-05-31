@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a0218;
+}
+#pagina1{
+    height: 45vh;
+    background-image: url(imgs/h2_hero1.jpg);
+    background-size: cover;
+    background-color: rgba( 0 , 0 , 0 , 0.5 );
+    background-blend-mode: multiply ;
+}
+
+header{
+    height: 10vh;
+}
+
+header img{
+    /*logo*/
+    margin-top: 2vh;
+    margin-left: 10%;
+    vertical-align: middle;
+    margin-bottom: 2vh;
+}
+
+header a{
+    /*P: 10(89) 273 3627*/
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+    padding: 5px 0px;
+    font-family: "Questrial";
+    padding-right: 2%;
+}
+#menu svg{
+    margin-left: 10%;
+
+}
+#a{
+     /*get free*/
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #D6A04C;
+    margin: 0px 75px 0px 0px;
+    padding: 14px 24px;
+}
+#a:hover{
+    background-color: transparent;
+    border: solid 1px #D6A04C;
+    color: #D6A04C;
+
+}
+
+.tlt p {
+    color: #FFFFFF;
+    font-family: "Questrial";
+    font-size: 16px;
+    margin-left:22%;
+    margin-bottom: 5%;
+}
+
+.tlt h1{
+    color: #FFFFFF;
+    font-family: "Cabin";
+    font-size: 60px;
+    margin-left: 22%;
+    margin-bottom: 4%;
+    font-weight: 400;
+}
+#pagina2{
+    height: 350vh;
+    display: inline-block;
+    width: 100%;
+}
+
+#canto-equerdo{
+    margin-left: 30%;
+    margin-top: 20%;
+    width: 50%;
+    position: absolute;
+}
+#canto-direito{
+    margin-left: 55%;
+    margin-top: 10%;
+    position: relative;
+    z-index: 99;
+    width: 4%;
+}
+
+#id-esquerdo{
+    width: 70%;
+}
+
+.image-blog1{
+    margin-left: 25%;
+    margin-top: 8% ;
+    position: relative;
+}
+.image-blog2{
+    margin-left: 25%;
+    margin-top: -4% ;
+    position: relative;
+}
+.image-blog3{
+    margin-left: 25%;
+    margin-bottom: 10% ;
+    position: relative;
+}
+.image-blog44{
+    margin-left: 25%;
+    margin-top: -4% ;
+    position: relative;
+}
+.image-blog5{
+    margin-left: 25%;
+    margin-top: 15% ;
+    position: relative;
+}
+
+#menu{
+    height: 15px;
+    width: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    right: 15%;
+    top: 4%;
+}
+.menuzinho{
+    list-style: none;
+}
+
+.otexto{
+    padding-top: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#check{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+}
+
+#check:checked~#aside{
+    right: 0;
+    top: 0;
+    background-color: #111111;
+}
+
+#aside{
+    width: 335px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    right: -335px;
+    top: 0;
+    transition: 0.5s;
+    z-index: 1;
+    padding-top: 200px;
+}
+
+#blog-amarelo{
+
+    left: 30px;
+    position: absolute;
+    background-color: #D6A04C;
+    border-radius: 5px;
+    font-size: 40px;
+    text-decoration: none;
+    font-size: 28px;
+    padding:5px 30px;
+    margin-left: 15%;
+    margin-bottom: 16%;
+}
+
+.textoH3{
+    font-size: 30px;
+    font-family: "Cabin";
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    
+}
+
+.textoP{
+    font-size: 16px;
+    font-family: "Questrial";
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left:    5%;
+    }
+
+.blog-amarelo{
+ margin-top: 15%;
+}
+
+.comentarios{
+    background-color: #D6A04C;
+}
+
+.comments{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+
+#pagina3{
+    height: 150vh;
+    background-color: #0a0218;
+    margin-top: 35%;
+}
+.procura{
+    box-sizing: border-box;
+    width: 45%;
+    height: 3vh;
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.form{
+    height: 50px;
+    color: #999999;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    border-radius: 0;
+    padding-left: 20px;
+}
+
+.procura{
+    height: 10vh;
+    width: 450px;
+    margin-bottom: 25%; 
+}
+
+.blog-item{
+    box-sizing: border-box;
+}
+
+.blog-item{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    line-height: 1.2;
+    position: relative;
+    right: 600px;
+    bottom: 300px;
+
+}
+
+.dois{
+    width: 750px;
+    height: 235px;
+    margin-top: -70px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 25%;
+    box-shadow: 0px 10px 20px 0px rgba(221,221,221,0.3);
+}
+
+.blog-amarelo15{
+    background-color: #D6A04C;
+    position: relative;
+    margin-left: 25%;
+    bottom: 70px;
+    text-align: center;
+   color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.blog-amarelo15 h3{
+    z-index: 10;
+    position: relative;
+    font-family: "Questrial";
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.blog-amarelo15 p{
+    z-index: 10;
+    position: relative;
+    font-size: 30px;
+    font-family: "Questrial";
+    font-weight: 600;
+}
+
+.blog-amarelo15:hover{
+    background-color: transparent;
+    color: #D6A04C;
+}
+
+
+
+#pagina3{
+    height: 70vh ;
+    background-color: #212529;
+    position: relative;
+}
+
+.img-logo{
+    margin-left: 7%;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+}
+
+.aa{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-family: "Questrial";
+    font-size: 16px;
+    
+}
+
+.dois a{
+    margin-top: 5%;
+}
+.li{
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+.quick h4{
+    color: #FFFFFF;
+    font-family: "Cabin";
+    font-size: 20px;
+}
+.quick{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    display: inline-block;
+
+}
+.quick li{
+    list-style-type: none   ;
+}
+
+.servicos h4{
+    font-size: 20px;
+    font-family: "Cabin";
+    color: #FFFFFF;
+}
+
+.servicos li{
+    list-style-type: none   ;
+}
+
+.news h4{
+    color: #FFFFFF;
+    font-family: "Cabin";
+    font-size: 20px;
+}
+
+.news p{
+    color: #A4A6AE;
+    font-size: 16px;
+    font-family: "Questrial";
+}
+
+.news{
+    display: inline-block;
+    margin-right: 7%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin-left: 36%;
+    width: 30%;
+    height: 2vh;
+}
+
+.news p{
+ margin-bottom: 5%;   
+}
+
+.servicos{
+    display: inline-block;
+    position: absolute  ;
+    top: 30%;
+    left: 25%;
+    margin-left: 11%;
+}
+
+.txtN{
+    margin-bottom: 5%;
+}
+
+.email{
+    height: 60px;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 20px ;
+    font-size: 20px;
+}
+
+.botao{
+    margin-right: -2%;
+    font-size: 16px;
+    background-color:#D6A04C;
+    border: 0;
+    position: absolute;
+    padding: 30px 40px;
+    border-radius: 1px;
+}
+
+.icon-btn2{
+    background-color: #D6A04C;
+    border: 1px solid #fbf9ff;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-left: 0;
+    font-family: "Questrial";
+    height: 48px;
+    margin-left: -5%;
+
+}
+
+.search{
+    font-size: 13px;
+    height: 48px;
+    width: 65%;
+    border: 1px solid #A4A6AE;
+    padding-left: 5%;
+    
+}
+
+.procura{
+    height: 10vh;
+    width: 450px;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+
+.categoria{
+    background-color: #fbf9ff;
+    padding: 30px;
+    margin-top: 8%;
+    height: 430px;
+}
+
+.categoria{
+    font-size: 20px;
+    font-family: "Cabin";
+    color: #000;
+}
+
+.lista{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.txt{
+    text-decoration: none;
+    color: #999999;
+    margin-bottom: 0px;
+}
+
+.recent-post{
+    background-color: #fbf9ff;
+    height: 530px;
+    margin-top: 5%;
+
+}
+
+.tags{
+    background-color: #fbf9ff;
+    height: 270px;
+    margin-top: 5%;
+}
+
+.insta{
+    background-color: #fbf9ff;
+    height: 270px;
+    margin-top: 5%;
+}
+
+.newsL{
+    background-color: #fbf9ff;
+    height: 270px;
+    margin-top: 5%;
+}
+
+.txt p{
+    margin-bottom: 10%;
+    font-family: "Questrial";
+    font-size: 14px;
+    color: #545454;
+}
+
+.txtP{
+    margin-top: 15%;
+}
+
+.recent-post h3{
+    font-size: 20px;
+    font-family: "Cabin";
+    color: #000000;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.img{
+    padding-left: 7%;
+    display: inline-block;
+    padding-bottom: 7%;
+}
+
+.ancora h3{
+   
+   font-family: "Cabin";
+   font-size: 16px;
+   text-decoration: none;
+   display: inline-block;
+   color: #000000;
+   width: 200px;
+}
+
+.ancora p{
+    font-family: "Questrial";
+    font-size: 14px;
+    color: #545454;
+}
+
+.ancora{
+    display: inline-block;
+}
+
+.tags h4{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Cabin" ;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.listaO{
+    list-style: none;
+    display: i;
+}
+
+.listaordenada a {
+    text-decoration: none;
+    color: #D6A04C;
+    font-size: 13px;
+    background: white;
+    border: 1px solid #eeeeee;
+    font-family: "Questrial";
+    margin: 10px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    padding-right: 25px;
+    margin-top: 40px;
+    padding: 4px 20px;
+
+
+}
+
+.listaordenada{
+    display: inline-block;
+    padding-bottom: 10%;
+}
+
+.listaordenada a:hover{
+    background-color: #D6A04C;
+    color: white;
+    transition: all 0.6s ease   ;
+}
+.insta h4{
+    color: #000000;
+    font-family: "Cabin";
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.posts{
+    list-style: none;
+    display: inline-block;
+}
+
+.newsL h4{
+    font-size: 20px;
+    font-family: "Cabin";
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.emaill{
+    height: 50px;
+    border-color: #fbf9ff;
+    padding-left: 15px;
+    padding-top: 15%;
+}
+.comm{
+    float: left;
+    font-size: 14px;
+    margin-left: 25%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.textu{
+    color: #D6A04C;
+    font-family: "Questrial";
+    margin-bottom: 5%;
+}
+
+.subscribe{
+    font-family: "Cabin";
+    font-size: 14px;
+    padding: 20px 70px;
+    margin-bottom: 15%;
+    color: #D6A04C;
+    background-color: #FFFFFF;
+    border: 1px solid #D6A04C;
+    position: relative;
+    top: 180%;
+    margin-left: 7%;
+}
+
+.subscribe:hover{
+    background-color: #D6A04C;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.insiraEmail{
+    height: 50px;
+    border: 1px solid black;
+    color: #999999;
+    border-color: #f0e9ff;
+    padding: 15px 45px;
+}
